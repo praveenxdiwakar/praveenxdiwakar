@@ -1,67 +1,138 @@
-<h1 align="center">Hi 👋, I'm Praveen Diwakar</h1>
-<h3 align="center">A Passionate Developer from India 🇮🇳</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praveen Diwakar | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Reset & Base */
+  * {margin:0;padding:0;box-sizing:border-box;}
+  body {font-family:'Inter', sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6;}
+  a {text-decoration:none;color:#58a6ff;}
+  img {max-width:100%;display:block;}
+  h1,h2,h3,h4,h5,h6 {color:#c9d1d9;margin-bottom:0.5em;}
+  p {margin-bottom:1em;}
+  code {background:#161b22;color:#f0f6fc;padding:2px 6px;border-radius:6px;font-family:'Fira Code', monospace;}
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=36BCF7&size=35&center=true&vCenter=true&width=600&lines=Praveen+Diwakar;Full-Stack+Developer;Open-Source+Contributor;Bot+Builder;Tech+Enthusiast" alt="Typing SVG" />
-</p>
+  /* Container */
+  .container {width:90%;max-width:1200px;margin:0 auto;padding:2rem 0;}
 
----
+  /* Header */
+  header {text-align:center;margin-bottom:2rem;}
+  header h1 {font-size:2.5rem;}
+  header h3 {font-weight:400;color:#8b949e;}
+  .typing-svg {margin:1rem 0;}
 
-### 👀 Profile Views
-<p align="left">
-  <img src="https://profile-counter.glitch.me/praveenxdiwakar/count.svg" alt="Visitor Count" />
-</p>
+  /* Profile Views & Contributions */
+  .profile-views, .contributions {text-align:center;margin-bottom:2rem;}
+  .contributions img {border-radius:6px;margin-top:1rem;}
 
----
+  /* About Me */
+  .about {margin-bottom:2rem;}
+  .about ul {list-style:none;padding-left:0;}
+  .about ul li {margin-bottom:0.5rem;}
+  .about ul li::before {
+    content:"👉";
+    margin-right:0.5rem;
+  }
 
-### 🌱 About Me
+  /* Skills */
+  .skills {margin-bottom:2rem;}
+  .skills .badges a {
+    display:inline-block;margin:0.25rem;
+  }
 
-- 🔭 I’m currently exploring new technologies & improving my full-stack skills  
-- 🌱 I’m learning **everything**, literally 🤓  
-- 👯 I’m open to collaboration on interesting & creative projects  
-- 🤔 I’m looking for help with optimizing my existing repositories  
-- 🥅 2025 Goals: Contribute more to **open source projects**  
-- ⚡ Fun fact: I love building bots and automation tools 🤖  
+  /* Fun Section */
+  .fun {text-align:center;margin-bottom:2rem;}
 
----
+  /* Connect */
+  .connect {text-align:center;margin-bottom:2rem;}
+  .connect a {margin:0 0.25rem;}
 
-### 🧰 Languages and Tools
+  /* Footer */
+  footer {text-align:center;padding:1.5rem 0;border-top:1px solid #30363d;color:#8b949e;font-size:0.9rem;}
 
-<p align="left">
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python" /></a>
-  <a href="https://html.spec.whatwg.org/" target="_blank"><img src="https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5" /></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git&logoColor=red" /></a>
-  <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" /></a>
-  <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=mongodb" /></a>
-  <a href="https://json.org/" target="_blank"><img src="https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json" /></a>
-  <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img src="https://img.shields.io/badge/Markdown-black?style=for-the-badge&logo=markdown" /></a>
-</p>
+  /* Buttons */
+  .btn {
+    display:inline-block;padding:0.5rem 1rem;border-radius:6px;background:#21262d;color:#c9d1d9;font-weight:600;transition:0.3s;
+  }
+  .btn:hover {background:#30363d;color:#58a6ff;}
 
----
+  /* Responsive */
+  @media(max-width:768px){
+    header h1 {font-size:2rem;}
+    header h3 {font-size:1rem;}
+  }
+</style>
+</head>
+<body>
+<div class="container">
 
-### 😄 Fun Section
+  <!-- Header -->
+  <header>
+    <h1>Hi 👋, I'm Praveen Diwakar</h1>
+    <h3>A Passionate Developer from India 🇮🇳</h3>
+    <img class="typing-svg" src="https://readme-typing-svg.herokuapp.com/?color=36BCF7&size=35&center=true&vCenter=true&width=600&lines=Praveen+Diwakar;Full-Stack+Developer;Open-Source+Contributor;Bot+Builder;Tech+Enthusiast" alt="Typing SVG">
+  </header>
 
-> Here’s a random joke to brighten your day 😄  
-> <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+  <!-- Profile Views -->
+  <section class="profile-views">
+    <h2>👀 Profile Views</h2>
+    <img src="https://profile-counter.glitch.me/praveenxdiwakar/count.svg" alt="Visitor Count">
+  </section>
 
----
+  <!-- GitHub Contributions -->
+  <section class="contributions">
+    <h2>📈 GitHub Contributions</h2>
+    <img src="https://ghchart.rshah.org/praveenxdiwakar" alt="GitHub Contributions Graph">
+  </section>
 
-### 📊 My GitHub Stats!
+  <!-- About Me -->
+  <section class="about">
+    <h2>🌱 About Me</h2>
+    <ul>
+      <li>🔭 I’m currently exploring new technologies & improving my full-stack skills</li>
+      <li>🌱 I’m learning everything, literally 🤓</li>
+      <li>👯 I’m open to collaboration on interesting & creative projects</li>
+      <li>🤔 I’m looking for help with optimizing my existing repositories</li>
+      <li>🥅 2025 Goals: Contribute more to open source projects</li>
+      <li>⚡ Fun fact: I love building bots and automation tools 🤖</li>
+    </ul>
+  </section>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=praveenxdiwakar&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=praveenxdiwakar&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=praveenxdiwakar&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+  <!-- Skills -->
+  <section class="skills">
+    <h2>🧰 Languages and Tools</h2>
+    <div class="badges">
+      <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python" alt="Python"></a>
+      <a href="https://html.spec.whatwg.org/" target="_blank"><img src="https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5" alt="HTML"></a>
+      <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git&logoColor=red" alt="Git"></a>
+      <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" alt="GitHub"></a>
+      <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=mongodb" alt="MongoDB"></a>
+      <a href="https://json.org/" target="_blank"><img src="https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json" alt="JSON"></a>
+      <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img src="https://img.shields.io/badge/Markdown-black?style=for-the-badge&logo=markdown" alt="Markdown"></a>
+    </div>
+  </section>
 
----
+  <!-- Fun Section -->
+  <section class="fun">
+    <h2>😄 Fun Section</h2>
+    <p>Here’s a random joke to brighten your day 😄</p>
+    <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card">
+  </section>
 
-### 🔗 Connect With Me
+  <!-- Connect -->
+  <section class="connect">
+    <h2>🔗 Connect With Me</h2>
+    <a href="https://github.com/praveenxdiwakar" target="_blank"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  </section>
 
-<p align="left">
-  <a href="https://github.com/praveenxdiwakar" target="_blank"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+</div>
 
----
-
-⭐️ From [Praveen Diwakar](https://github.com/praveenxdiwakar)
+<!-- Footer -->
+<footer>
+  ⭐️ From <a href="https://github.com/praveenxdiwakar">Praveen Diwakar</a> | © 2025
+</footer>
+</body>
+</html>
