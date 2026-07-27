@@ -41,11 +41,11 @@ I enjoy contributing to open-source projects and exploring innovative technologi
   <img alt="Twitter" src="https://img.icons8.com/color/48/twitter.png" width="50">
 </a>
 
-<a href="https://www.linkedin.com/in/praveen-diwakar">
+<a href="https://www.linkedin.com/in/praveendiwakar">
   <img alt="LinkedIn" src="https://img.icons8.com/color/48/linkedin.png" width="50">
 </a>
 
-<a href="mailto:contact@siynet.com">
+<a href="mailto:praveen@siynet.com">
   <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Email" width="50">
 </a>
 
